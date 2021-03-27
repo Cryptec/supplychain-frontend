@@ -38,7 +38,7 @@ class Home extends Component {
                             onChange={this.handleChange.bind(this)}
                             required
                             placeholder='Time'
-                            readonly="readonly"
+                            readOnly="readonly"
                         />
                         <br />
                         <input

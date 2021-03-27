@@ -22,9 +22,9 @@ export default function Navigation() {
 
                 <div>
 
-                    <Link to="/" className="NavbarIcons" > Add </Link>
+                    <Link to="/" className="NavbarIcon1" > Add </Link>
 
-                    <Link to="/timeline" className="NavbarIcons" >Show</Link>
+                    <Link to="/timeline" className="NavbarIcon2" >Show</Link>
 
                 </div>
 

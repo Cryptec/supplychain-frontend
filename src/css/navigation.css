@@ -1,4 +1,14 @@
-.NavbarIcons {
+.NavbarIcon1 {
     color: aliceblue;
     text-decoration: none;
+    position: fixed;   
+    margin-top: 46vh;
+    padding: 10px;
+}
+.NavbarIcon2 {
+    color: aliceblue;
+    text-decoration: none;   
+    position: fixed; 
+    margin-top: calc(46vh + 25px);
+    padding: 10px;
 }

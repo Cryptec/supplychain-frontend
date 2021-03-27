@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
+import './App.css';
+import './css/colors.css';
+import './css/timeline.css'
+
 class Timeline extends Component {
     
     render() { 
         return ( 
-            <div>
-                <h1>
-                    this is the timeline
-                </h1>
+            <div className="timeline-container">
+                
             </div>
          );
     }
