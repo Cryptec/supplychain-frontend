@@ -1,32 +1,64 @@
 .NavbarIcon1 {
     color: aliceblue;
     text-decoration: none;
+    text-align: center;
     position: fixed;   
-    margin-top: 46vh;
+    margin-top: 38vh;
     padding: 10px;
+    width: 40px;
+    line-height: 25px;
+    border-radius: 15px;
+    background-color: var(--secondary);
+    margin-left: 15px;
+}
+.NavbarIcon1:hover {
+    background-color: var(--primary-light);
+}
+.line-between {
+    width: 3px;
+    height: 45px;
+    background-color: var(--secondary);
+    margin-top: calc(38vh + 50px);
+    position: fixed;  
+    margin-left: 42px;
 }
 .NavbarIcon2 {
     color: aliceblue;
+    text-align: center;
     text-decoration: none;   
     position: fixed; 
-    margin-top: calc(46vh + 25px);
+    margin-top: calc(38vh + 100px);
     padding: 10px;
+    width: 40px;
+    line-height: 25px;
+    border-radius: 15px;
+    background-color: var(--secondary);
+    margin-left: 15px;
+}
+.NavbarIcon2:hover {
+    background-color: var(--primary-light);
 }
 
 @media (max-width: 500px) {
 .NavbarIcon1 {
     margin-top: 90vh;
-    padding: 0px;
-    margin-left: -40px;
+    padding: 10px;
+    margin-left: -100px;
 }
 .NavbarIcon2 {
     margin-top: 90vh;
-    padding: 0px;
-    margin-left: 20px;
+    padding: 10px;
+    margin-left: 40px;
 }
 .navBlock {
     text-align: center;
     
+}
+.line-between {
+    width: 60px;
+    height: 3px;
+    margin-top: calc(90vh + 20px);
+    margin-left: calc(50vw - 30px);
 }
 
 }

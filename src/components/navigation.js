@@ -24,6 +24,7 @@ export default function Navigation() {
 
                     <Link to="/" className="NavbarIcon1" >Add </Link>
 
+                    <div className="line-between"></div>
 
                     <Link to="/timeline" className="NavbarIcon2" >Show </Link>
 
