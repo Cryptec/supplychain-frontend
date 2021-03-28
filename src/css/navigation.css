@@ -41,12 +41,12 @@
 
 @media (max-width: 500px) {
 .NavbarIcon1 {
-    margin-top: 90vh;
+    margin-top: 86vh;
     padding: 10px;
     margin-left: -100px;
 }
 .NavbarIcon2 {
-    margin-top: 90vh;
+    margin-top: 86vh;
     padding: 10px;
     margin-left: 40px;
 }
@@ -57,7 +57,7 @@
 .line-between {
     width: 60px;
     height: 3px;
-    margin-top: calc(90vh + 20px);
+    margin-top: calc(86vh + 20px);
     margin-left: calc(50vw - 30px);
 }
 
