@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/supplychain-frontend/static/css/main.f2792c14.chunk.css",
-    "main.js": "/supplychain-frontend/static/js/main.1dd24596.chunk.js",
-    "main.js.map": "/supplychain-frontend/static/js/main.1dd24596.chunk.js.map",
-    "runtime-main.js": "/supplychain-frontend/static/js/runtime-main.ec5f06bd.js",
-    "runtime-main.js.map": "/supplychain-frontend/static/js/runtime-main.ec5f06bd.js.map",
-    "static/js/2.c1830f2d.chunk.js": "/supplychain-frontend/static/js/2.c1830f2d.chunk.js",
-    "static/js/2.c1830f2d.chunk.js.map": "/supplychain-frontend/static/js/2.c1830f2d.chunk.js.map",
-    "static/js/3.12d20526.chunk.js": "/supplychain-frontend/static/js/3.12d20526.chunk.js",
-    "static/js/3.12d20526.chunk.js.map": "/supplychain-frontend/static/js/3.12d20526.chunk.js.map",
+    "main.css": "/supplychain-frontend/static/css/main.010c5f33.chunk.css",
+    "main.js": "/supplychain-frontend/static/js/main.05cc3991.chunk.js",
+    "main.js.map": "/supplychain-frontend/static/js/main.05cc3991.chunk.js.map",
+    "runtime-main.js": "/supplychain-frontend/static/js/runtime-main.edfca6d6.js",
+    "runtime-main.js.map": "/supplychain-frontend/static/js/runtime-main.edfca6d6.js.map",
+    "static/js/2.778cc1cd.chunk.js": "/supplychain-frontend/static/js/2.778cc1cd.chunk.js",
+    "static/js/2.778cc1cd.chunk.js.map": "/supplychain-frontend/static/js/2.778cc1cd.chunk.js.map",
+    "static/js/3.089348cd.chunk.js": "/supplychain-frontend/static/js/3.089348cd.chunk.js",
+    "static/js/3.089348cd.chunk.js.map": "/supplychain-frontend/static/js/3.089348cd.chunk.js.map",
     "index.html": "/supplychain-frontend/index.html",
-    "static/css/main.f2792c14.chunk.css.map": "/supplychain-frontend/static/css/main.f2792c14.chunk.css.map",
-    "static/js/2.c1830f2d.chunk.js.LICENSE.txt": "/supplychain-frontend/static/js/2.c1830f2d.chunk.js.LICENSE.txt"
+    "static/css/main.010c5f33.chunk.css.map": "/supplychain-frontend/static/css/main.010c5f33.chunk.css.map",
+    "static/js/2.778cc1cd.chunk.js.LICENSE.txt": "/supplychain-frontend/static/js/2.778cc1cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec5f06bd.js",
-    "static/js/2.c1830f2d.chunk.js",
-    "static/css/main.f2792c14.chunk.css",
-    "static/js/main.1dd24596.chunk.js"
+    "static/js/runtime-main.edfca6d6.js",
+    "static/js/2.778cc1cd.chunk.js",
+    "static/css/main.010c5f33.chunk.css",
+    "static/js/main.05cc3991.chunk.js"
   ]
 }
