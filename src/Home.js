@@ -10,6 +10,9 @@ class Home extends Component {
         this.state = {
             Time: "",
             Location: "",
+            ProductID: "",
+            DeviceID: "",
+            Description: "",
             status: "Submit",
             answerOk: "Success",
             answerDenied: "Denied"
@@ -51,6 +54,36 @@ class Home extends Component {
                             placeholder='Location'
                         />
                         <br />
+                        <input
+                           type='text'
+                           className='form-group'
+                           id="ProductID"
+                           value={this.state.ProductID}
+                           onChange={this.handleChange.bind(this)}
+                           required
+                           placeholder='Product ID'
+                        />
+                        <br />
+                        <input
+                           type='text'
+                           className='form-group'
+                           id="DeviceID"
+                           value={this.state.DeviceID}
+                           onChange={this.handleChange.bind(this)}
+                           required
+                           placeholder='Device ID'
+                        />
+                        <br />
+                        <input
+                           type='text'
+                           className='form-group'
+                           id="Description"
+                           value={this.state.Description}
+                           onChange={this.handleChange.bind(this)}
+                           required
+                           placeholder='Description'
+                        />
+                        <br />
 
                         <button className="submitButton">{buttonText}</button>
 
@@ -67,6 +100,12 @@ class Home extends Component {
             this.setState({ Time: event.target.value });
         } else if (field === "Location") {
             this.setState({ Location: event.target.value });
+        } else if (field === "ProductID") {
+            this.setState({ ProductID: event.target.value });
+        } else if (field === "DeviceID") {
+            this.setState({ DeviceID: event.target.value });
+        } else if (field === "Description") {
+            this.setState({ Description: event.target.value });
         }
     }
 
@@ -78,14 +117,14 @@ class Home extends Component {
             method: "POST",
             url: "http://213.196.200.119:8080/login",
             headers: { 'Content-Type': 'application/json' },
-            data: { Time: this.state.Time, Location: this.state.Location }
+            data: { Time: this.state.Time, Location: this.state.Location, ProductID: this.state.ProductID, DeviceID: this.state.DeviceID, Description: this.state.Description }
 
         }).then((response, props) => {
 
             console.log(response);
             if (response.data.answer === this.state.answerOk) {
 
-                this.setState({ Time: "", Location: "", status: "Submitted" })
+                this.setState({ Time: "", Location: "", ProductID: "", DeviceID: "", Description: "", status: "Submitted" })
                 this.handleLogin()
                 alert("Ready to track");
 
