@@ -1,6 +1,6 @@
 {
   "name": "supplychain-frontend",
-  "homepage": "https://cryptec.github.io/supplychain-frontend/",
+  "homepage": "https://supplychain.owndev.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
