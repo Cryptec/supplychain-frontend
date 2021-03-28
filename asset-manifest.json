@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/supplychain-frontend/static/css/main.33096488.chunk.css",
-    "main.js": "/supplychain-frontend/static/js/main.b65dda71.chunk.js",
-    "main.js.map": "/supplychain-frontend/static/js/main.b65dda71.chunk.js.map",
+    "main.css": "/supplychain-frontend/static/css/main.f2792c14.chunk.css",
+    "main.js": "/supplychain-frontend/static/js/main.1dd24596.chunk.js",
+    "main.js.map": "/supplychain-frontend/static/js/main.1dd24596.chunk.js.map",
     "runtime-main.js": "/supplychain-frontend/static/js/runtime-main.ec5f06bd.js",
     "runtime-main.js.map": "/supplychain-frontend/static/js/runtime-main.ec5f06bd.js.map",
     "static/js/2.c1830f2d.chunk.js": "/supplychain-frontend/static/js/2.c1830f2d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.12d20526.chunk.js": "/supplychain-frontend/static/js/3.12d20526.chunk.js",
     "static/js/3.12d20526.chunk.js.map": "/supplychain-frontend/static/js/3.12d20526.chunk.js.map",
     "index.html": "/supplychain-frontend/index.html",
-    "static/css/main.33096488.chunk.css.map": "/supplychain-frontend/static/css/main.33096488.chunk.css.map",
+    "static/css/main.f2792c14.chunk.css.map": "/supplychain-frontend/static/css/main.f2792c14.chunk.css.map",
     "static/js/2.c1830f2d.chunk.js.LICENSE.txt": "/supplychain-frontend/static/js/2.c1830f2d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ec5f06bd.js",
     "static/js/2.c1830f2d.chunk.js",
-    "static/css/main.33096488.chunk.css",
-    "static/js/main.b65dda71.chunk.js"
+    "static/css/main.f2792c14.chunk.css",
+    "static/js/main.1dd24596.chunk.js"
   ]
 }
