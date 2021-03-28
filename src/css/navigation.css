@@ -12,3 +12,21 @@
     margin-top: calc(46vh + 25px);
     padding: 10px;
 }
+
+@media (max-width: 500px) {
+.NavbarIcon1 {
+    margin-top: 90vh;
+    padding: 0px;
+    margin-left: -40px;
+}
+.NavbarIcon2 {
+    margin-top: 90vh;
+    padding: 0px;
+    margin-left: 20px;
+}
+.navBlock {
+    text-align: center;
+    
+}
+
+}
